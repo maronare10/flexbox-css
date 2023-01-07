@@ -1,0 +1,24 @@
+.flex-container {
+  width: 500px;
+  height: 300px;
+  background-color: deeppink;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+  
+}
+
+.flex-item{
+  background-color: chartreuse;
+  width: 100px;
+  height: 100px;
+ 
+}
+
+.flex-item:nth-child(odd) {
+  background-color: deepskyblue;
+ 
+
+}
